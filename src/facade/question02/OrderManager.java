@@ -1,10 +1,10 @@
-public class OrderManagement {
-    private InventoryManagement inventoryManagement=new InventoryManagement();
-    private OrderTracking orderTracking=new OrderTracking();
-    private ShippingManagement shippingManagement=new ShippingManagement();
-    private PaymentProcessor paymentProcessor=new PaymentProcessor();
+public class OrderManager {
+    private InventoryManager inventoryManager;
+    private OrderTracking orderTracking;
+    private ShippingManager shippingManager;
+    private PaymentProcessor paymentProcessor;
 
-    public OrderFacade() {
+    public OrderManager() {
         inventoryManager = new InventoryManager();
         shippingManager = new ShippingManager();
         paymentProcessor = new PaymentProcessor();
@@ -13,7 +13,7 @@ public class OrderManagement {
 
     public void processOrder(Order order) {
         if (inventoryManager.checkInventory(order)) {
-            paymentProcessor.chargeCreditCard(order);
+            paymentProcessor.chargePaymentCart(order);
             shippingManager.shipOrder(order);
             orderTracking.updateOrderStatus(order, "shipped");
         } else {

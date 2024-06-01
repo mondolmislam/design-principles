@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class PaymentProcessor {
+public class PaymentProcessor {
+    public void chargePaymentCart(Order order){
+        // charge policy implement here
+    }
 }

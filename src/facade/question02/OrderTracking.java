@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class OrderTracking {
+public class OrderTracking {
+    public void updateOrderStatus(Order order,String status){
+        //implement update order status
+    }
 }
