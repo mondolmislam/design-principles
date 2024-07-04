@@ -10,6 +10,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src/facade/question02" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/facade/question03" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/creational-pattern/abstract-factory" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/behavioral-pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/behavioral-pattern/chain-of-responsibility" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/behavioral-pattern/chain-of-responsibility/question01" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
