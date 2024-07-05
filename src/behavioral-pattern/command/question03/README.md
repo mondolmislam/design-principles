@@ -1,0 +1,2 @@
+Assume you are building a stock trading application that allows users to buy and sell stocks. You want to implement an undo
+feature that allows users to undo their last stock trade. Implement this feature using the Command design pattern in java
