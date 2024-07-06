@@ -1,0 +1,2 @@
+Suppose you are working on a program that manages a collection of emails, where each email has a subject,body and recipient list.
+You need to provide a way to iterate over the collection and retrieve the subject and body of each email sent to a specific recipient. How can you implement this functionality using Iterator design pattern.
