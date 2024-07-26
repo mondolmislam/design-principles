@@ -1,0 +1,2 @@
+You are working on a web application that allows users to collaborate on a document in real-time. Multiple users can view
+and edit the document simultaneously. How can you use a design pattern to manage communication between the users and the document?
